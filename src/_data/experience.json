@@ -1,39 +1,35 @@
-[
-  {
-    "company": "Company Name",
-    "role": "Your Job Title",
-    "location": "Location",
-    "startDate": "2021",
-    "endDate": "Present",
-    "current": true,
-    "description": "A brief description of your responsibilities and achievements in this role.",
-    "details": [
-      "Accomplishment or responsibility 1",
-      "Accomplishment or responsibility 2",
-      "Accomplishment or responsibility 3"
-    ],
-    "technologies": [
-      "Technology 1",
-      "Technology 2",
-      "Technology 3"
-    ]
-  },
-  {
-    "company": "Previous Company",
-    "role": "Previous Job Title",
-    "location": "Previous Location",
-    "startDate": "2018",
-    "endDate": "2021",
-    "current": false,
-    "description": "A brief description of your responsibilities and achievements in this role.",
-    "details": [
-      "Accomplishment or responsibility 1",
-      "Accomplishment or responsibility 2"
-    ],
-    "technologies": [
-      "Technology 1",
-      "Technology 2",
-      "Technology 3"
-    ]
-  }
-] 
+{
+  "jobs": [
+    {
+      "title": "Company Name",
+      "role": "Your Job Title",
+      "period": "2021 - Present",
+      "description": "A brief description of your responsibilities and achievements in this role.",
+      "bullets": [
+        "Accomplishment or responsibility 1",
+        "Accomplishment or responsibility 2",
+        "Accomplishment or responsibility 3"
+      ],
+      "tags": [
+        { "name": "Technology 1", "color": "#0078D4" },
+        { "name": "Technology 2", "color": "#7B42BC" },
+        { "name": "Technology 3", "color": "#FF6600" }
+      ]
+    },
+    {
+      "title": "Previous Company",
+      "role": "Previous Job Title",
+      "period": "2018 - 2021",
+      "description": "A brief description of your responsibilities and achievements in this role.",
+      "bullets": [
+        "Accomplishment or responsibility 1",
+        "Accomplishment or responsibility 2"
+      ],
+      "tags": [
+        { "name": "Technology 1", "color": "#0078D4" },
+        { "name": "Technology 2", "color": "#7B42BC" },
+        { "name": "Technology 3", "color": "#FF6600" }
+      ]
+    }
+  ]
+}

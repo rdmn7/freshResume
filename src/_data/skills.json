@@ -1,72 +1,60 @@
 {
   "categories": [
     {
-      "name": "Programming",
-      "skills": [
-        {
-          "name": "JavaScript",
-          "level": 90,
-          "color": "#F7DF1E"
-        },
-        {
-          "name": "Python",
-          "level": 85,
-          "color": "#3776AB"
-        },
-        {
-          "name": "Java",
-          "level": 75,
-          "color": "#007396"
-        }
-      ]
+      "title": "Programming",
+      "icon": "fas fa-code",
+      "description": "Programming languages and paradigms",
+      "tags": ["JavaScript", "Python", "Java"]
     },
     {
-      "name": "Frontend",
-      "skills": [
-        {
-          "name": "HTML/CSS",
-          "level": 95,
-          "color": "#E34F26"
-        },
-        {
-          "name": "React",
-          "level": 85,
-          "color": "#61DAFB"
-        },
-        {
-          "name": "Vue.js",
-          "level": 70,
-          "color": "#4FC08D"
-        }
-      ]
+      "title": "Frontend",
+      "icon": "fas fa-desktop",
+      "description": "Frontend technologies and frameworks",
+      "tags": ["HTML/CSS", "React", "Vue.js"]
     },
     {
-      "name": "DevOps",
-      "skills": [
-        {
-          "name": "Docker",
-          "level": 80,
-          "color": "#2496ED"
-        },
-        {
-          "name": "Kubernetes",
-          "level": 70,
-          "color": "#326CE5"
-        },
-        {
-          "name": "CI/CD",
-          "level": 85,
-          "color": "#4B32C3"
-        }
-      ]
+      "title": "DevOps",
+      "icon": "fas fa-server",
+      "description": "DevOps and infrastructure technologies",
+      "tags": ["Docker", "Kubernetes", "CI/CD"]
     }
   ],
-  "softSkills": [
-    "Communication",
-    "Problem Solving",
-    "Leadership",
-    "Teamwork",
-    "Time Management",
-    "Adaptability"
+  "technical": [
+    {
+      "name": "JavaScript",
+      "level": "expert",
+      "icon": "JS",
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "Python",
+      "level": "advanced",
+      "icon": "PY",
+      "color": "#3776AB"
+    },
+    {
+      "name": "Docker",
+      "level": "intermediate",
+      "icon": "🐳",
+      "color": "#2496ED"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "intermediate",
+      "icon": "☸️",
+      "color": "#326CE5"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "icon": "⚛️",
+      "color": "#61DAFB"
+    },
+    {
+      "name": "Vue.js",
+      "level": "intermediate",
+      "icon": "V",
+      "color": "#4FC08D"
+    }
   ]
-} 
+}

@@ -1,26 +1,24 @@
-[
-  {
-    "name": "English",
-    "level": "Native/Fluent",
-    "icon": "flag-icon flag-icon-us",
-    "fluency": 100
-  },
-  {
-    "name": "Spanish",
-    "level": "Professional",
-    "icon": "flag-icon flag-icon-es",
-    "fluency": 75
-  },
-  {
-    "name": "French",
-    "level": "Intermediate",
-    "icon": "flag-icon flag-icon-fr",
-    "fluency": 50
-  },
-  {
-    "name": "German",
-    "level": "Basic",
-    "icon": "flag-icon flag-icon-de",
-    "fluency": 25
-  }
-] 
+{
+  "langs": [
+    {
+      "name": "English",
+      "level": 100,
+      "color": "#0078D4"
+    },
+    {
+      "name": "Spanish",
+      "level": 75,
+      "color": "#7B42BC"
+    },
+    {
+      "name": "French",
+      "level": 50,
+      "color": "#FF6600"
+    },
+    {
+      "name": "German",
+      "level": 25,
+      "color": "#0078D4"
+    }
+  ]
+}
