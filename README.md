@@ -33,19 +33,25 @@ git clone https://github.com/yourusername/fresh-resume-theme.git my-resume
 cd my-resume
 ```
 
-2. Install dependencies:
+2. Run initial setup:
+
+```bash
+npm run setup
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start the development server:
+4. Start the development server:
 
 ```bash
-npm start
+npm run start
 ```
 
-4. Open your browser and navigate to `http://localhost:8080`
+5. Open your browser and navigate to `http://localhost:8080`
 
 ## Customization
 
