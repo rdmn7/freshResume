@@ -1,0 +1,14 @@
+<section class="certifications">
+    <div class="container">
+        <h3 class="section-title">Certifications</h3>
+        
+        <div class="certification-grid">
+            {% for cert in certifications.certs %}
+            <div class="certification-card">
+                <div class="certification-name">{{ cert.name }}</div>
+                <div class="certification-date">{{ cert.date }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

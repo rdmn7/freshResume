@@ -1,0 +1,42 @@
+<header class="resume-header">
+    {% if site.openToWork.enabled %}
+    <div class="open-to-work-badge">
+        <span class="dot" style="background-color: {{ site.openToWork.colors[site.openToWork.status] }}"></span>
+        {{ site.openToWork.text }}
+    </div>
+    {% endif %}
+    <div class="container">
+        <div class="profile">
+            <div class="profile-image">
+                <img src="{{ profile_image | default('/assets/images/profile.jpg') }}" alt="{{ site.name }}">
+            </div>
+            <div class="profile-content">
+                <h1>{{ site.name }}</h1>
+                <div class="scramble-container">
+                    <div class="company-name diff">{{ site.role }}</div>
+                </div>
+                <p class="bio">{{ site.bio }}</p>
+                <div class="social-links">
+                    {% if site.social.linkedin %}
+                    <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    {% endif %}
+                    {% if site.social.github %}
+                    <a href="{{ site.social.github }}" target="_blank" title="github"><i class="fab fa-github"></i></a>
+                    {% endif %}
+                    {% if site.social.certifications %}
+                    <a href="{{ site.social.certifications }}" target="_blank" title="Certifications"><i class="fas fa-certificate"></i></a>
+                    {% endif %}
+                    {% if site.social.twitter %}
+                    <a href="{{ site.social.twitter }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    {% endif %}
+                    {% if site.social.facebook %}
+                    <a href="{{ site.social.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    {% endif %}
+                    {% if site.social.instagram %}
+                    <a href="{{ site.social.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</header> 

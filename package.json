@@ -1,0 +1,28 @@
+{
+  "name": "fresh-resume-theme",
+  "version": "1.0.0",
+  "description": "A modern, customizable resume/CV theme for 11ty",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site",
+    "setup": "node setup.js"
+  },
+  "bin": {
+    "fresh-resume-setup": "./setup.js"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "resume",
+    "cv",
+    "theme",
+    "portfolio"
+  ],
+  "author": "Ridvan Ermis",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

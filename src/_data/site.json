@@ -1,0 +1,50 @@
+{
+  "title": "Your Name | Your Role",
+  "name": "Your Name",
+  "role": "Your Role",
+  "bio": "A brief bio about yourself...",
+  "company": {
+    "name": "Your Company",
+    "kvk": "Registration Number",
+    "btw": "Tax ID"
+  },
+  "contact": {
+    "email": "your.email@example.com",
+    "phone": "+1 234 567 890"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/yourusername/",
+    "github": "https://github.com/yourusername",
+    "certifications": "https://yourlink.com"
+  },
+  "colorScheme": {
+    "primary": "#0078D4",
+    "secondary": "#7B42BC",
+    "accent": "#FF6600"
+  },
+  "animations": {
+    "textScramble": true,
+    "enabled": true
+  },
+  "openToWork": {
+    "enabled": true,
+    "status": "open",
+    "text": "Open to Work",
+    "colors": {
+      "open": "#1DBF73",
+      "busy": "#E74C3C",
+      "notAvailable": "#95A5A6"
+    }
+  },
+  "sections": {
+    "header": true,
+    "about": true,
+    "skills": true,
+    "technicalSkills": true,
+    "experience": true,
+    "education": true,
+    "certifications": true,
+    "languages": true,
+    "contact": true
+  }
+} 

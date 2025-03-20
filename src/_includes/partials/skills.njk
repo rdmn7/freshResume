@@ -1,0 +1,23 @@
+<section class="skills">
+    <div class="container">
+        <h3 class="section-title">Skills & Expertise</h3>
+        <div class="skills-container">
+            {% for category in skills.categories %}
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="{{ category.icon }}"></i>
+                </div>
+                <div class="skill-content">
+                    <h4>{{ category.title }}</h4>
+                    <p>{{ category.description }}</p>
+                    <div class="skill-tags">
+                        {% for tag in category.tags %}
+                        <span class="skill-tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

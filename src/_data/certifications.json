@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Certification Name",
+    "issuer": "Issuing Organization",
+    "date": "2023",
+    "description": "Brief description of the certification and its significance in your field.",
+    "icon": "fas fa-certificate",
+    "url": "https://example.com/certification-link"
+  },
+  {
+    "name": "Another Certification",
+    "issuer": "Issuing Organization",
+    "date": "2022",
+    "description": "Brief description of the certification and its significance in your field.",
+    "icon": "fas fa-award",
+    "url": "https://example.com/certification-link"
+  },
+  {
+    "name": "Professional Certification",
+    "issuer": "Issuing Organization",
+    "date": "2021",
+    "description": "Brief description of the certification and its significance in your field.",
+    "icon": "fas fa-trophy",
+    "url": "https://example.com/certification-link"
+  }
+] 

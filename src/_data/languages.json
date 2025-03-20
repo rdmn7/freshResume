@@ -1,0 +1,26 @@
+[
+  {
+    "name": "English",
+    "level": "Native/Fluent",
+    "icon": "flag-icon flag-icon-us",
+    "fluency": 100
+  },
+  {
+    "name": "Spanish",
+    "level": "Professional",
+    "icon": "flag-icon flag-icon-es",
+    "fluency": 75
+  },
+  {
+    "name": "French",
+    "level": "Intermediate",
+    "icon": "flag-icon flag-icon-fr",
+    "fluency": 50
+  },
+  {
+    "name": "German",
+    "level": "Basic",
+    "icon": "flag-icon flag-icon-de",
+    "fluency": 25
+  }
+] 

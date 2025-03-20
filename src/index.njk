@@ -1,0 +1,35 @@
+---
+layout: layout.njk
+---
+
+{% if site.sections.header %}
+{% include "partials/header.njk" %}
+{% endif %}
+
+{% if site.sections.about %}
+{% include "partials/about.njk" %}
+{% endif %}
+
+{% if site.sections.skills %}
+{% include "partials/skills.njk" %}
+{% endif %}
+
+{% if site.sections.technicalSkills %}
+{% include "partials/technical-skills.njk" %}
+{% endif %}
+
+{% if site.sections.experience %}
+{% include "partials/experience.njk" %}
+{% endif %}
+
+{% if site.sections.education %}
+{% include "partials/education.njk" %}
+{% endif %}
+
+{% if site.sections.certifications %}
+{% include "partials/certifications.njk" %}
+{% endif %}
+
+{% if site.sections.languages %}
+{% include "partials/languages.njk" %}
+{% endif %} 

@@ -1,0 +1,18 @@
+<section class="languages">
+    <div class="container">
+        <h3 class="section-title">Languages</h3>
+        
+        <div class="language-grid">
+            {% for lang in languages.langs %}
+            <div class="language-card">
+                <div class="language-name">{{ lang.name }}</div>
+                <div class="language-level">
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: {{ lang.level }}%; background-color: {{ lang.color }};"></div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

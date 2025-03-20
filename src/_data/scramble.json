@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "phrases": [
+    "Software Engineer",
+    "Web Developer",
+    "UX Designer",
+    "Product Manager",
+    "Tech Enthusiast"
+  ],
+  "delay": 2000
+} 

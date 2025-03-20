@@ -1,0 +1,39 @@
+{
+  "tagline": "Your catchy tagline here",
+  "summary": "A comprehensive summary about your professional background, skills, and what makes you unique.",
+  "motto": "Your personal motto or philosophy",
+  "highlights": [
+    {
+      "number": "5+",
+      "label": "Years Experience",
+      "description": "Your field"
+    },
+    {
+      "number": "10+",
+      "label": "Projects",
+      "description": "Type of projects"
+    },
+    {
+      "number": "3+",
+      "label": "Companies",
+      "description": "Where you worked"
+    }
+  ],
+  "principles": [
+    {
+      "icon": "fas fa-code",
+      "title": "Clean Code",
+      "text": "Description of your principle"
+    },
+    {
+      "icon": "fas fa-users",
+      "title": "Team Collaboration",
+      "text": "Description of your principle"
+    },
+    {
+      "icon": "fas fa-lightbulb",
+      "title": "Innovation",
+      "text": "Description of your principle"
+    }
+  ]
+} 

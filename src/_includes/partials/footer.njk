@@ -1,0 +1,20 @@
+<footer>
+    <div class="container">
+        <div class="footer-left">
+            <p>&copy; {{ currentYear | default('2025') }} {{ site.company.name }}. All rights reserved.</p>
+            <p class="company-info">{{ site.company.kvk }}</p>
+            <p class="company-info">{{ site.company.btw }}</p>
+        </div>
+        <div class="footer-links">
+            {% if site.social.linkedin %}
+            <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a>
+            {% endif %}
+            {% if site.social.certifications %}
+            <a href="{{ site.social.certifications }}" target="_blank">Credly</a>
+            {% endif %}
+            {% if site.social.github %}
+            <a href="{{ site.social.github }}" target="_blank">GitHub</a>
+            {% endif %}
+        </div>
+    </div>
+</footer> 

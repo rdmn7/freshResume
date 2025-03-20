@@ -1,0 +1,40 @@
+<section class="about-me">
+    <div class="container">
+        <h3 class="section-title">About me</h3>
+        <div class="about-card">
+            <div class="about-header">
+                <div class="about-intro">
+                    <h4 class="about-tagline">{{ about.tagline }}</h4>
+                    <p class="about-summary">
+                        {{ about.summary }}
+                    </p>
+                    <p class="about-motto">"{{ about.motto }}"</p>
+                </div>
+                <div class="about-highlights">
+                    {% for highlight in about.highlights %}
+                    <div class="highlight-item">
+                        <div class="highlight-number">{{ highlight.number | safe }}</div>
+                        <div class="highlight-details">
+                            <div class="highlight-label">{{ highlight.label }}</div>
+                            <div class="highlight-description">{{ highlight.description }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="about-body">
+                {% for principle in about.principles %}
+                <div class="about-principle">
+                    <div class="principle-icon">
+                        <i class="{{ principle.icon }}"></i>
+                    </div>
+                    <h5 class="principle-title">{{ principle.title }}</h5>
+                    <p class="principle-text">
+                        {{ principle.text }}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section> 

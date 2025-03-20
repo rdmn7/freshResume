@@ -1,0 +1,15 @@
+<section class="education">
+    <div class="container">
+        <h3 class="section-title">Education</h3>
+        
+        <div class="education-grid">
+            {% for edu in education.degrees %}
+            <div class="education-card">
+                <div class="education-period">{{ edu.period }}</div>
+                <div class="education-degree">{{ edu.degree }}</div>
+                <div class="education-school">{{ edu.school }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

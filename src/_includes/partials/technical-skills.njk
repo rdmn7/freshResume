@@ -1,0 +1,18 @@
+<section class="technical-skills">
+    <div class="container">
+        <h3 class="section-title">Technical Skills</h3>
+        <div class="tech-skills-grid">
+            {% for skill in skills.technical %}
+            <div class="tech-skill">
+                <div class="tech-skill-icon" style="color: {{ skill.color }};">
+                    <span>{{ skill.icon }}</span>
+                </div>
+                <div class="tech-skill-info">
+                    <div class="tech-skill-name">{{ skill.name }}</div>
+                    <div class="tech-skill-level {{ skill.level }}"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section> 

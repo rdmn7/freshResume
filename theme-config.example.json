@@ -1,0 +1,105 @@
+{
+  "site": {
+    "title": "Your Name | Your Role",
+    "name": "Your Name",
+    "role": "Your Role",
+    "bio": "A brief bio about yourself...",
+    "company": {
+      "name": "Your Company",
+      "kvk": "Registration Number",
+      "btw": "Tax ID"
+    },
+    "contact": {
+      "email": "your.email@example.com",
+      "phone": "+1 234 567 890"
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/yourusername/",
+      "github": "https://github.com/yourusername",
+      "certifications": "https://yourlink.com",
+      "twitter": "https://twitter.com/yourusername",
+      "facebook": "https://facebook.com/yourusername",
+      "instagram": "https://instagram.com/yourusername"
+    },
+    "colorScheme": {
+      "primary": "#0078D4",
+      "secondary": "#7B42BC",
+      "accent": "#FF6600"
+    },
+    "animations": {
+      "textScramble": true,
+      "enabled": true
+    },
+    "openToWork": {
+      "enabled": true,
+      "status": "open",
+      "text": "Open to Work",
+      "colors": {
+        "open": "#1DBF73",
+        "busy": "#E74C3C",
+        "notAvailable": "#95A5A6"
+      }
+    },
+    "sections": {
+      "header": true,
+      "about": true,
+      "skills": true,
+      "technicalSkills": true,
+      "experience": true,
+      "education": true,
+      "certifications": true,
+      "languages": true,
+      "contact": true
+    }
+  },
+  "scramble": {
+    "enabled": true,
+    "phrases": [
+      "Software Engineer",
+      "Web Developer",
+      "UX Designer",
+      "Product Manager",
+      "Tech Enthusiast"
+    ],
+    "delay": 2000
+  },
+  "about": {
+    "tagline": "Your catchy tagline here",
+    "summary": "A comprehensive summary about your professional background, skills, and what makes you unique.",
+    "motto": "Your personal motto or philosophy",
+    "highlights": [
+      {
+        "number": "5+",
+        "label": "Years Experience",
+        "description": "Your field"
+      },
+      {
+        "number": "10+",
+        "label": "Projects",
+        "description": "Type of projects"
+      },
+      {
+        "number": "3+",
+        "label": "Companies",
+        "description": "Where you worked"
+      }
+    ],
+    "principles": [
+      {
+        "icon": "fas fa-code",
+        "title": "Clean Code",
+        "text": "Description of your principle"
+      },
+      {
+        "icon": "fas fa-users",
+        "title": "Team Collaboration",
+        "text": "Description of your principle"
+      },
+      {
+        "icon": "fas fa-lightbulb",
+        "title": "Innovation",
+        "text": "Description of your principle"
+      }
+    ]
+  }
+} 
